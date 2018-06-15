@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var pluginData : String = "plugin.aps"
-    let pluginController : Int = 11
+    let pluginController : Int = 110
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
