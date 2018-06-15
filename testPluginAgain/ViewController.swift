@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         print("----- \(testObserver)---")
         return testObserver
     }
+    func secondBranc(nameType name: String,ageType age:Int) -> (String,Int) {
+        return (name, age+10)
+    }
     
     
     
