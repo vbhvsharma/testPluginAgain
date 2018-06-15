@@ -26,8 +26,10 @@ class ViewController: UIViewController {
     func updateSecondBranc(nameType name: String,ageType age:Int,genderOf gender:String) -> (String,Int) {
         return (name, age+10)
     }
-    
-    
+    func updateSecondBranc(nameType name: String,ageType age:Int,genderOf gender:String) -> (String,String,Int) {
+        return (name, gender,age+10)
+    }
+  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
