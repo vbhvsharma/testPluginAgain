@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     var pluginData : String = "plugin.aps"
     var plugintestData : String = "plugin1.aps"
+    var new
     let pluginController : Int = 11
     override func viewDidLoad() {
         super.viewDidLoad()
