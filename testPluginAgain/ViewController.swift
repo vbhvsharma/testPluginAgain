@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let observers="finders for observers"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,6 +31,7 @@ class ViewController: UIViewController {
         return (name, gender,age+10)
     }
   
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
